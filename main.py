@@ -1,8 +1,3 @@
-ism='Shukurullo'
-for i in ism:
-    print(i)
-
-k=0
-while k<len(ism):
-    print(ism[k])
-    k+=1
+import random
+s=["kitob","daftar","qalam","ruchka","sirkul"]
+print(s[random.randint(0,4)])
